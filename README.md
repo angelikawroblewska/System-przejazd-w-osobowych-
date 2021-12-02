@@ -1,4 +1,4 @@
-# System-przejazd-w-osobowych-
+# System przejazdów osobowych
 System przejazdów osobowych<br />
 ARTEFAKTY<br />
 Aplikacja mobilna – stanowi podstawowy sposób korzystania z usługi przejazdów osobowych naszej firmy, a także powstawowe narzędzie pracy dla kierowców naszej firmy. Proces wykonania aplikacji powinien być dokładnie przemyślany. Zaprojektowanie interfejsu oraz prawidłowego działania aplikacji wymaga wysoko wykwalifikowanej kadry, ale przede wszystkim kreatywnego pomysłu. Stworzenie aplikacji mobilnej rozpoczyna się od pomysłu, zaprojektowaniu aplikacji, następnie wyznaczenie osób (pracowników) do wykonania określonych modułów aplikacji, kodowanie oraz wzdrożenie aplikacji.<br />
