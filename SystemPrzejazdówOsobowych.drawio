@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T13:47:33.569Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="4ISNf83zRY9pNSjBMEJH" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T13:58:11.997Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ceemKJFH6EDhrkKScMcr" version="15.5.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1888" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,10 +53,10 @@
           <mxGeometry x="580" y="170" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EOrvkw3zUfeiwgOwcYgM-26" value="System GPS" style="swimlane;strokeWidth=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="240" y="460" width="260" height="230" as="geometry" />
+          <mxGeometry x="270" y="460" width="200" height="230" as="geometry" />
         </mxCell>
         <mxCell id="EOrvkw3zUfeiwgOwcYgM-27" value="Interface GPS" style="swimlane;strokeWidth=1;fontStyle=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-26">
-          <mxGeometry x="50" y="40" width="160" height="170" as="geometry" />
+          <mxGeometry x="20" y="40" width="160" height="170" as="geometry" />
         </mxCell>
         <mxCell id="EOrvkw3zUfeiwgOwcYgM-28" value="Lokalizacja pojazdów" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontStyle=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-27">
           <mxGeometry x="20" y="30" width="120" height="60" as="geometry" />
@@ -72,6 +72,42 @@
         </mxCell>
         <mxCell id="EOrvkw3zUfeiwgOwcYgM-32" value="Przesył danych" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-33" value="Integracja i synchronizacja map" style="swimlane;strokeWidth=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="460" width="420" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-34" value="Wsparcie kierowcy" style="swimlane;strokeWidth=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-33">
+          <mxGeometry x="20" y="45" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-35" value="Integracja MapKit (iOS)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-34">
+          <mxGeometry x="20" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-36" value="Integracja GoogleMaps API (Android)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-34">
+          <mxGeometry x="20" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-37" value="Identyfikacja lokalizacji urządzenia" style="swimlane;strokeWidth=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-33">
+          <mxGeometry x="200" y="45" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-38" value="CoreLocation (iOS)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-37">
+          <mxGeometry x="40" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-39" value="Lokalizacja Google API (Android)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-37">
+          <mxGeometry x="40" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-40" value="GoogleMaps &lt;br&gt;(iOS i Android)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-33">
+          <mxGeometry x="150" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-41" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="630" as="sourcePoint" />
+            <mxPoint x="270" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-42" value="Przesył danych" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-43" value="Wsparcie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="630" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
