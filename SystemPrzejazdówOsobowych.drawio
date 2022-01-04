@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-04T13:58:11.997Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="ceemKJFH6EDhrkKScMcr" version="15.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-04T13:59:50.473Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="NeQbHPetWiVE6VrCsp1u" version="15.5.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1888" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -79,22 +79,22 @@
         <mxCell id="EOrvkw3zUfeiwgOwcYgM-34" value="Wsparcie kierowcy" style="swimlane;strokeWidth=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-33">
           <mxGeometry x="20" y="45" width="160" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="EOrvkw3zUfeiwgOwcYgM-35" value="Integracja MapKit (iOS)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-34">
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-35" value="Integracja MapKit (iOS)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-34">
           <mxGeometry x="20" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EOrvkw3zUfeiwgOwcYgM-36" value="Integracja GoogleMaps API (Android)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-34">
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-36" value="Integracja GoogleMaps API (Android)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-34">
           <mxGeometry x="20" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EOrvkw3zUfeiwgOwcYgM-37" value="Identyfikacja lokalizacji urządzenia" style="swimlane;strokeWidth=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-33">
           <mxGeometry x="200" y="45" width="200" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="EOrvkw3zUfeiwgOwcYgM-38" value="CoreLocation (iOS)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-37">
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-38" value="CoreLocation (iOS)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-37">
           <mxGeometry x="40" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EOrvkw3zUfeiwgOwcYgM-39" value="Lokalizacja Google API (Android)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-37">
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-39" value="Lokalizacja Google API (Android)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#ea6b66;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-37">
           <mxGeometry x="40" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EOrvkw3zUfeiwgOwcYgM-40" value="GoogleMaps &lt;br&gt;(iOS i Android)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-33">
+        <mxCell id="EOrvkw3zUfeiwgOwcYgM-40" value="GoogleMaps &lt;br&gt;(iOS i Android)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;gradientColor=#ffd966;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="EOrvkw3zUfeiwgOwcYgM-33">
           <mxGeometry x="150" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EOrvkw3zUfeiwgOwcYgM-41" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
